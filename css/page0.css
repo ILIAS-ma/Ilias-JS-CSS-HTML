@@ -1,0 +1,265 @@
+*{
+  background-color: rgb(246, 246, 246);
+  
+  
+  }
+
+  .body{
+    margin: 0px;
+    padding: 0px;
+  }
+  .header{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    margin: 10px;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;  
+   
+  }
+  ul li a{
+    color: rgb(129, 128, 128);
+    letter-spacing: 0.1rem;
+    padding-right: 20px;
+   
+  }
+  ul li a:hover{
+    color:  rgb(255, 0, 0)
+    
+  }
+  .menu li {
+    float: left;
+    padding: 35px;
+  }
+  .menu li a{
+    text-decoration:none ;
+    
+  }
+  form{
+    padding: 35px;
+    text-align: right;
+    padding-right: 75px;
+  }
+  input[type="search"]{
+    font: size 30px; ;
+    color: rgb(255, 0, 0);
+  }
+  h1{
+    text-align: center;
+    
+  }
+  
+
+ 
+  img{
+    width: 650px ;
+    height: 420px;
+    
+    align-items: center;
+   
+  }
+.swiper-slide{
+    height: 60vh;
+    }
+.swiper-slide {
+    text-align: center; font-size: 10px; 
+    display: flex;
+    justify-content: center; align-items: center;
+  }
+h2{
+  
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(117, 117, 117);
+    font-family: sans-serif;
+    font-size: medium;
+}
+p{
+  background-color: rgb(122, 122, 122);
+  color: aliceblue;
+  
+  border-style: double;
+}
+
+
+.swiper-pagination{
+  color: black;
+}
+.swiper-button-next{
+  color: black;
+}
+.swiper-button-prev{
+  color:black
+}
+
+var{
+  align-items: center;
+  text-align: center;
+  background-color: blueviolet;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+@media screen and (max-width: 800px) {
+  img{ max-width: 100%;
+    height: auto;}
+  
+  }
+  header{
+   background-color: rgb(59, 59, 59)
+  }
+  main{
+     display: flex;
+     flex-wrap: wrap;
+     width: auto; 
+    }
+  body{
+      background-color:  rgb(58, 58, 58)
+     }
+  h1{
+      color: rgb(247, 247, 255);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: center;
+      font-style: oblique;
+      font-size: xx-large;
+      margin-top: 10px;
+      margin-bottom: 50px;
+      text-decoration: underline;
+      max-width: 100%;
+      height: auto;
+  
+  }
+  .a{
+    border-color: gold;
+    width: 60vw;
+    margin-left: 240px; 
+    max-width: 100%;
+    height: auto;
+  }
+  h2{
+    background-color: rgb(117, 117, 117);
+      color: rgb(255,215,0);
+      text-align: center;
+      font-size: x-large;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      position: relative;
+      margin-bottom: 100px;
+      margin: top 50px; ;
+  }
+  flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  img{ 
+    margin: 50px;
+    width: 500px;
+    height: 400px;
+    font-size: 9em;
+    text-align: center;
+    border: solid;color: rgb(255,215,0);
+    margin-right: 100px;
+  }@media screen and (max-width: 800px) {
+    img{ max-width: 100%;
+      height: auto;}
+    
+    }
+    header{
+     background-color: rgb(59, 59, 59)
+    }
+    main{
+       display: flex;
+       flex-wrap: wrap;
+       width: auto; 
+      }
+    body{
+        background-color:  rgb(58, 58, 58)
+       }
+    h1{
+        color: rgb(247, 247, 255);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        font-style: oblique;
+        font-size: xx-large;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        text-decoration: underline;
+        max-width: 100%;
+        height: auto;
+    
+    }
+    .a{
+      border-color: gold;
+      width: 60vw;
+      margin-left: 240px; 
+      max-width: 100%;
+      height: auto;
+    }
+  
+    
+    flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    img{ 
+      margin: 50px;
+      width: 500px;
+      height: 400px;
+      font-size: 9em;
+      text-align: center;
+ 
+      margin-right: 100px;
+      }   
+    p{
+      color: aliceblue;
+      font-size: x-large;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 70px;
+      
+       }
+    button{
+       color: rgb(104, 104, 104);
+       font-size: x-large;
+    }
+    
